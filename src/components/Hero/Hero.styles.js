@@ -8,7 +8,7 @@ export const Wrapper = styled.div`
   place-items: center;
   column-gap: 1.5rem;
   background-color: #121212;
-  color: #f3f3f3;
+  color: white;
 
   img {
     height: 85vh;
@@ -16,7 +16,12 @@ export const Wrapper = styled.div`
   }
 
   h1 {
+    background-color: yellow;
+    color: #121212;
+    width: fit-content;
     margin-bottom: 2rem;
+    padding: 0.5rem;
+    border-radius: 5px;
   }
 
   h3,
